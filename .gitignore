@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# If you are using SQLite3 locally
+*.sqlite3
+
+# Django migrations
+*/migrations/*
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Local environment variables
+.env
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.env
+*.env.*
+.envrc
+.dockerignore
+docker-compose.yml
+Dockerfile
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
