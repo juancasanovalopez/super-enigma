@@ -13,4 +13,4 @@ def login(request):
 
 @login_required
 def secured_view(request):
-    return render(request, 'app/secured.html')
+    return render(request, 'secured.html')
