@@ -22,5 +22,6 @@ jobs:
           script: |
             cd /home/ubuntu/super-enigma
             git pull origin main
+            cd /home/ubuntu/super-enigma/my-django-app
             docker-compose down
             docker-compose up -d --build
