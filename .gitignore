@@ -59,3 +59,6 @@ Dockerfile
 
 # macOS
 .DS_Store
+
+my-django-app/certs/
+.matrix/
