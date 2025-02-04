@@ -14,7 +14,7 @@ DATABASES = {
 # Security settings
 SECRET_KEY = 'your-secret-key'
 DEBUG = True
-ALLOWED_HOSTS = ['192.168.1.11', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['192.168.1.11','192.168.1.11:1000','localhost', '127.0.0.1']
 
 # Installed apps
 INSTALLED_APPS = [
