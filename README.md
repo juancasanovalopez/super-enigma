@@ -7,6 +7,7 @@ This is a simple Django project that uses an SQLite database. Below are the inst
 - Python 3.x
 - Docker (optional, for containerization)
 - Docker Compose (optional, for orchestration)
+- AWS EC2 Instance
 
 ## Setup Instructions
 
@@ -53,22 +54,15 @@ This is a simple Django project that uses an SQLite database. Below are the inst
 
 ## Usage
 
-- Access the application at `http://127.0.0.1:8000/`.
+- Access the application at `http://127.0.0.1:1000/`.
 - Use the Django admin interface at `http://127.0.0.1:8000/admin/` (create a superuser to access it).
 
-## Contributing
 
-Feel free to submit issues or pull requests for improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
-
-Aquí tienes una guía detallada para desplegar una aplicación Django contenedorizada en Docker en dos entornos:
+Desplegar una aplicación Django contenedorizada en Docker en dos entornos:
 	1.	Servidor Local (Pruebas)
 	2.	AWS EC2 (Producción)
 
-También usaremos GitHub Actions para automatizar el despliegue en ambos entornos.
+GitHub Actions para automatizar el despliegue en ambos entornos.
 
 1. Configuración del Proyecto con Docker
 
@@ -146,7 +140,6 @@ docker-compose up -d --build
 	4.	Verifica que el contenedor esté corriendo:
 
 docker ps
-
 
 	5.	Accede a http://localhost:8000 para verificar la aplicación.
 
