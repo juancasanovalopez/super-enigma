@@ -21,7 +21,7 @@ jobs:
           username: ${{ secrets.LOCAL_USER }}
           key: ${{ secrets.AWS_SSH_KEY }}
           script: |
-            cd /home/${{ secrets.LOCAL_USER }}/tu_proyecto
+            cd /home/${{ secrets.LOCAL_USER }}/dock/super-enigma
             git pull origin develop
             docker-compose down
             docker-compose up -d --build
@@ -40,7 +40,7 @@ jobs:
           username: ${{ secrets.AWS_USER }}
           key: ${{ secrets.AWS_SSH_KEY }}
           script: |
-            cd /home/ubuntu/tu_proyecto
+            cd /home/ubuntu/super-enigma
             git pull origin main
             docker-compose down
             docker-compose up -d --build
