@@ -37,7 +37,7 @@ TEMPLATES = [
 # Security settings
 SECRET_KEY = 'your-secret-key'
 DEBUG = True
-ALLOWED_HOSTS = ['192.168.1.11', '192.168.1.11:1000', 'localhost', '127.0.0.1','cicloservices.ddns.net','cicloservices.ddns.net:1000']
+ALLOWED_HOSTS = ['ec2-15-188-48-222.eu-west-3.compute.amazonaws.com','192.168.1.11', '192.168.1.11:1000', 'localhost', '127.0.0.1','cicloservices.ddns.net','cicloservices.ddns.net:1000']
 
 # Installed apps
 INSTALLED_APPS = [
