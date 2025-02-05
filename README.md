@@ -302,5 +302,3 @@ push	develop	Servidor de pruebas (Docker)
 push	main	AWS EC2 (Producción)
 
 Con esta configuración, cada cambio en develop o main se reflejará automáticamente en el servidor de pruebas o en producción mediante Docker y GitHub Actions.
-
-¡Tu despliegue ahora es completamente automatizado!
